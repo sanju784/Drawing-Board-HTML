@@ -5,7 +5,7 @@ var canvas = document.getElementById('myCanvas');
 var context = canvas.getContext('2d');
 
 /**@var radius of points that are drawn on canvas, the canvas drawing is made from connecting the points */
-var radius = 10;
+var radius = 5;
 
 /**@var flag to check when the mouse is dragged and when moved */
 var downFlag = false;
